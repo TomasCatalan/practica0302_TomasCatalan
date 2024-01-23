@@ -5,5 +5,26 @@ class Producto:
         self.__nombre = nombre
         self.__precio = precio
 
+    @property
     def codigo(self):
         return self.__codigo
+    
+    @codigo.setter
+    def codigo(self, valor):
+        self.__codigo = valor
+    
+    @property
+    def codigo(self):
+        return self.__codigo
+    
+    @codigo.setter
+    def codigo(self, valor):
+        self.__codigo = valor    
+    
+@property
+    def codigo(self):
+        return self.__codigo
+    
+    @codigo.setter
+    def codigo(self, valor):
+        self.__codigo = valor
