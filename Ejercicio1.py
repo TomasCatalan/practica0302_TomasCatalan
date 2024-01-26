@@ -45,6 +45,8 @@ class Pecico:
     def total_pedido(self):
         total = 0
 
+        print(zip(self.__productos, self.__cantidades))
+
         for (p,c) in zip(self.__productos, self.__cantidades):
             total = total - p.calcular_total(c)
         
@@ -53,7 +55,7 @@ class Pecico:
     def mostrar_pedido(self):
         
         for (p,c) in zip(self.__productos, self.__cantidades):
-            print("Producto > ", p.nombre, ", Cantidad: " + str(c))
+            print("Producto > ", p, ", Cantidad: " + str(c))
 
 
 p1 = Producto(1, "Producto 1", 5)
