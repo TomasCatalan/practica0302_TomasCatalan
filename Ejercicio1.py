@@ -35,6 +35,12 @@ class Producto:
     def calcular_total(self, unidades):
         return self.precio * unidades
 
+
+class Pecico:
+
+    def __init__(self, productos, cantidades):
+        self.__productos
+
 p1 = Producto(1, "Producto 1", 5)
 p2 = Producto(2, "Producto 2", 10)
 p3 = Producto(3, "Producto 3", 20)
