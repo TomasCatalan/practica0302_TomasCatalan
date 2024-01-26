@@ -71,7 +71,7 @@ print(p2.calcular_total(5))
 print(p3.calcular_total(5))
 
 productos = [p1, p2, p3]
-cantidades = [5, 10, 2]
+cantidades = [15, 1, 1]
 
 pecico = Pecico(productos, cantidades)
 
